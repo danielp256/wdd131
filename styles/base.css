@@ -32,7 +32,7 @@ nav {
 	align-items: center;
 }
 .navigation li {
-	flex: 1 1 auto; /* What is the difference between auto and 100% flex-basis? - turn on link borders to view */
+	flex: 1 1 auto;
 }
 .navigation a {
 	font-weight: 700;
@@ -47,9 +47,54 @@ nav {
 	text-decoration: underline;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    gap: 1rem;
+}
+
+main h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 1000;
+    font-size: 4cap;
+}
+
 .card {
-	margin: 1rem;
-	border: 1px solid rgb(0 0 0 / .2);
+    border: 1px solid rgb(0 0 0 / .2);
+    padding: 1rem;
+    background-color: #eee;
+}
+
+img{
+    height: 200px;
+    width: auto;
+}
+h2{
+    
+    display: block;
+    background-color: #03285f;
 	padding: 1rem;
-	background-color: #eee;
+	border: 1px solid rgb(0 0 0 / 10%);
+	font-size: 2rem;
+	text-align: center;
+    color: aliceblue;
+}
+
+.resources{
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+h3{
+    
+	padding: 1rem;
+	border-bottom: 2px solid rgb(0 0 0 / 10%);
+	font-size: 2rem;
+	text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
 }

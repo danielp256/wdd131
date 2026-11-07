@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header span{
+    max-width: 250px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+header{
+    background-color: #03285f;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    font-size: 2rem;
+    color: aliceblue;
+    margin-bottom: 1rem;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+
+main {
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 1000;
+    font-size: 4cap;
+}
+.container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 25px;
+	place-items: center;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	margin: 0.5rem;
+}
+figcaption {
+	font-size: smaller;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+    gap: 1rem;
+
+}
+nav li {
+	flex: 1 1 auto;
+}
+nav li a {
+	font-weight: 500;
+	display: block;
+	color: #eee;
+	padding: 0.75rem;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+
+footer{
+	padding: 1rem;
+	border: 2px solid rgb(0 0 0 / 10%);
+	font-size: 20px;
+    background-color: #03285f;
+	text-align: center;
+    color: rgb(252, 252, 252);  
+}
+
+

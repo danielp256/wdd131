@@ -24,9 +24,11 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+main{
+    background-color: #ffff;
+}
 
-
-main h1 {
+h1 {
     grid-column: 1 / -1;
     text-align: center;
     margin-bottom: 1rem;

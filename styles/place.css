@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #f02121;
+    border: 1px solid rgb(0 0 0 / 10%);
+    color: aliceblue;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    
+}
+header p{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+
+
+.container img{
+
+    width: 100%;
+    height: auto;
+}
+footer{
+    width: 100%;
+	padding: 2rem;
+	border: 2px solid rgb(0 0 0 / 10%);
+	font-size: 30px;
+    background-color: #ff0000;
+	text-align: center;
+    color: rgb(252, 252, 252);  
+}

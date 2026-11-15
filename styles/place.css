@@ -20,14 +20,14 @@ header{
     text-align: center;
     
 }
-header p{
+header h1{
     display: flex;
     justify-content: center;
     max-width: 100%;
     font-size: 3rem;
     font-weight: 600;
 }
-h1{
+h2{
     display: block;
     background-color: rgba(6, 165, 59, 0.41);
     

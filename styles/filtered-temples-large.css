@@ -16,7 +16,6 @@
         padding: 1rem 0;
     }
 
-    /* Cuando el nav tiene la clase open, se muestra */
     nav.open {
         display: block;
     }

@@ -98,10 +98,17 @@ const temples = [
   // Add more temple objects here...
 ];
 
-createTempleCard();
+createTempleCard(temples);
 
-function createTempleCard() {
-    temples.forEach(temple => {
+const nonutahLink = document.querySelector('#nonutah')
+
+nonutahLink.addEventListener('click', () =>{
+    createTempleCard(temples.filter(temple => !temple.location.includes('Utah')));
+
+})
+
+function createTempleCard(filteredTemples) {
+    filteredTemples.forEach(temple => {
         let card = document.createElement("section");
         let name = document.createElement("h3");
         let location = document.createElement("p");

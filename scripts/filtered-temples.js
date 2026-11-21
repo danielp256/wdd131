@@ -100,14 +100,29 @@ const temples = [
 
 createTempleCard(temples);
 
-const nonutahLink = document.querySelector('#nonutah')
-
-nonutahLink.addEventListener('click', () =>{
-    createTempleCard(temples.filter(temple => !temple.location.includes('Utah')));
-
+const oldLink = document.querySelector('#old')
+oldLink.addEventListener('click', () =>{
+    createTempleCard(temples.filter(temple => new Date(temple.dedicated).getFullYear() < 1900));
 })
 
+const newLink = document.querySelector('#new')
+newLink.addEventListener('click', () =>{
+    createTempleCard(temples.filter(temple => new Date(temple.dedicated).getFullYear() > 2000));
+})
+
+const largeLink = document.querySelector('#large')
+largeLink.addEventListener('click', () =>{
+    createTempleCard(temples.filter(temple => temple.area > 90000));
+})
+const smallLink = document.querySelector('#small')
+smallLink.addEventListener('click', () =>{
+    createTempleCard(temples.filter(temple => temple.area < 10000));
+})
+
+
+
 function createTempleCard(filteredTemples) {
+    document.querySelector('.container').innerHTML = '';
     filteredTemples.forEach(temple => {
         let card = document.createElement("section");
         let name = document.createElement("h3");

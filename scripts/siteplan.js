@@ -1,21 +1,21 @@
 const temples = [
   {
-    templeName: "Manti Utah",
+    templeName: "#000000",
     charac: 'text',
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
+    "https://preview.colorkit.co/color/000000.png?type=article-preview-logo&size=social&colorname=Black"
   },
   {
-    templeName: "Payson Utah",
+    templeName: "#03285f",
     charac: 'header,footer,heading',
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
+    "https://preview.colorkit.co/color/032859.png?size=social&type=opengraph"
   },
   {
-    templeName: "Yigo Guam",
+    templeName: "#ecdcb1",
     charac: 'background',
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
+    "https://preview.colorkit.co/color/ECD7B1.png?type=article-preview-logo&size=social&colorname=Champagne%20Gold"
   },
 
 ];

@@ -6,13 +6,13 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #ffffff;
+    background-color: #faf9f6;
 }
 
 header {
     background-color: #03285f;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     padding: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
@@ -28,10 +28,10 @@ header p {
 }
 
 h1 {
-    text-align: center;
-    margin-bottom: 1rem;
-    font-weight: 900;
-    font-size: 4cap;
+    text-align: left;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 2cap;
 }
 
 .container {
@@ -48,9 +48,23 @@ h1 {
     width: 100%;
 }
 
+header img {
+    display: block;
+    width: 85px;
+    height: auto;
+    margin: 0.5rem 0;
+}
+
 img {
     display: block;
     width: 100%;
+    height: auto;
+    margin: 0.5rem 0;
+}
+
+.wireframe {
+    display: block;
+    width: 20%;
     height: auto;
     margin: 0.5rem 0;
 }
